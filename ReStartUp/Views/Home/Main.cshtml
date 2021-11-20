@@ -1,0 +1,122 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>RE- Organization</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,100' rel='stylesheet' type='text/css'>
+
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- Font Awesome Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- Custom stlylesheet -->
+    <link type="text/css" rel="stylesheet" href="/css/main_style.css" />
+
+</head>
+
+<body>
+    <header id="header">
+        <div class="container">
+            <h1>Innovation Cloud</h1>
+            <p>Connect your ideas globally</p>
+        </div>
+    </header>
+
+    <nav class="nav">
+        <div class="container">
+            <ul>
+                <li>About us</li>
+                <li>Our Product</li>
+                <li>Contact us</li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="main">
+        <div class="container">
+            <img src="https://content.codecademy.com/projects/innovation-cloud/cloud.svg" height="128" width="196">
+            <h2>The Innovation Cloud Conference</h2>
+            <p>
+                Lorem ipsutetur, adipisicing elit. Perfeullam perspiciatis dicta unde, earum quas? Maemque repellendus.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis, ratione? Eos magnam deserunt dolore
+                dolorem consequatur omnis facilis obcaecati ipsum? Dolor adipisci laboriosam suscipit dolorum. Magni, rerum?
+                Officiis, saepe est! met consectetur adipisicing elit. Veritatis, ratione? Eos magnam deserunt dolore.
+                ecusandae blanditiis sectetur pariatur ted sapiente, quam quo repudiandae illo perspiciatis veritatis error maxime fugiat nulla.
+            </p>
+
+        </div>
+
+        <div class="container">
+            <img src="https://content.codecademy.com/projects/innovation-cloud/cloud.svg" height="128" width="196">
+            <h2>The Innovation Cloud Conference</h2>
+            <p>Lorem ipsum, dolor sit amet condolores ma aperiam atque. Illum tempore animaepe blanditiis perferendis.</p>
+            <p>Lorem ipsupisicing ndis in placeat debitis. totam iusto minus nobis. Nam quas vero ratione pariatur soluta sit facilis omnis quos aspernatur.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non dicta consequuntur? Quos nobis praesentium odio sequi.</p>
+        </div>
+    </main>
+
+    <div id="jumbotron">
+        <div class="container">
+            <h2>Stay Connected</h2>
+            <p>Receive weekly notifications from us. Thank you !!</p>
+            <form asp-controller="Home" asp-action="Submission" method="post">
+                <label for="email" style="color: #fff"> Enter your email: </label>
+                <input id="email" name="email" type="email" required>
+                <button class="btn" type="submit">Join</button>
+            </form>
+        </div>
+    </div>
+
+    <footer id="footer">
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-xs-4">
+                        <div class="footer">
+                            <h3 class="footer-title">Who We Are</h3>
+                            <ul class="footer-links">
+                                <li><a href="https://www.facebook.com/retryuntilrevolution/" target="_blank">RE- Organization</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-xs-4">
+                        <div class="footer">
+                            <h3 class="footer-title">Our Product</h3>
+                            <ul class="footer-links">
+                                <li>RE- CRUIT</li>
+                                <li>Hackathon 48h - Product Innovation Challenge 2021</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-xs-4">
+                        <div class="footer">
+                            <h3 class="footer-title">Contact Us</h3>
+                            <ul class="footer-links">
+                                <li><i class="fa fa-map-marker"></i>Ho Chi Minh City</li>
+                                <li><i class="far fa-envelope"></i>reorganization2021@gmail.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
