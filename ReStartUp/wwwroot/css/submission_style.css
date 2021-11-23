@@ -17,6 +17,10 @@ p {
     top: 80px;
 }
 
+a {
+    font-size: 25px;
+}
+
 .overlay {
     width: 80%;
     min-width: 30%;
